@@ -1,4 +1,15 @@
 // Assignment code here
+funtion getRandomLower() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
+}
+
+funtion getRandomLower() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
+}
+
+funtion getRandomNumber() {
+  return String.fromCharCode(Math.floor(Math.random() *26) +48);
+}
 
 
 // Get references to the #generate element
